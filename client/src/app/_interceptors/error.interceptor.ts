@@ -49,9 +49,7 @@ export class ErrorInterceptor implements HttpInterceptor {
                 this.toastr.error('something unexpected went wrong');
                 console.log(error);
               break;
-
           }
-
         }
         throw error;
       }
